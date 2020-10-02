@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/dist/main.css">
+    <script src="https://kit.fontawesome.com/c76056eb93.js" crossorigin="anonymous"></script>
     <title>L'EFFEUILLAGE</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
 
     <section>
         <div class="container my-5">
-            <i class="fab fa-instagram fa-3x"></i>
+            <i class="fab fa-instagram fa-3x text-primary"></i>
             <div class="row"> 
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                     <img src="assets/images/instagram/01.png"  class="img-fluid">
@@ -64,38 +65,31 @@
             </div>
         </div>
     </section>
-
-    <section class="bg-full-picture-comments"> 
-        <div class="container">
-            Block Commentaires Google 
-        </div>
-    </section>
-
     <section class="bg-black">
-        <div class="container">
+        <div class="container my-5">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <h3>Contact</h3>
                     <div>
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <a href="https://www.facebook.com/leffeuillageFleurs/"><i class="fab fa-facebook-square fa-3x mr-2 text-dark"></i></a>
+                        <a href="https://www.instagram.com/leffeuillage/"><i class="fab fa-instagram fa-3x text-dark"></i></a>
                     </div>
-                    <p>clea-vandaele@leffeuillage.fr</p>
+                    <p>Email : clea-vandaele@leffeuillage.fr</p>
                 </div>
-                <div class="col-8">
-                    <form class="row g-3">
+                <div class="col-12 col-md-8">
+                    <form action="mailto:clea-vandaele@leffeuillage.fr" method="get" enctype="text/plain" class="row g-3">
                         <div class="col-md-6">
-                          <label for="inputEmail4" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="inputEmail4">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email">
                         </div>
                         <div class="col-md-6">
-                          <label for="inputPassword4" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="inputPassword4">
+                          <label for="nom" class="form-label">Nom</label>
+                          <input type="text" class="form-control" id="nom">
                         </div>
                         <div class="col-md-12">
                             <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                <label for="content" class="form-label">Message</label>
+                                <textarea class="form-control" id="content" rows="5"></textarea>
                             </div>
                         </div>
                         <div class="col-12">
@@ -104,6 +98,12 @@
                       </form>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-dark py-3">
+        <div class="container d-flex justify-content-between">
+            <span class="text-white">© leffeuillage.fr. Graphiste Bastien CLEMENT</span>
+            <a href="#">Mentions légales</a>
         </div>
     </section>
 </body>
